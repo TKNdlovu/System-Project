@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="OneBank.exe" version="1.0.0.0" publicKeyToken="40f73d26a4bf935d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="OneBank" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="OneBank.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OneBank.exe" size="490440">
+      <assemblyIdentity name="OneBank" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3D2RoKG+N9xddzLerWrSIc5zvsZykLB99vifnRbu6iU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="OneBank.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PROLIFIC24\Thomas" issuerKeyHash="7993ab188adbc0aa5af6b969617ffd189e3d3fc2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>elPVOgqzDfP9554oy9J6b4jK+dGCZBmJeWyFIHh5w1s=</DigestValue></Reference></SignedInfo><SignatureValue>TfCDYqe1Uwu2fWKd18YB6LKw0deV6HbkoNzSQ8f4rybTw2Wi4uGXQh0AFPXBeXhMSFxVkVbhA5TPOb4kMKrr+z0ztPTLpCXQ/BYGgBHhhlaheKnZ8aLoTbJqR1QgL7bUZsLbpwXr1lJRf7pFEQLc3aWKgzKuNa9rb7VUV+/3Nfc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yWoa9tX3Nd6ajMNUY6Scbklx9AUIJ+Nne2tul8sfaGnOftSbfZAuL3YSMnfuWZZOyWWRMyj7u+2UUWJ7VL9Ea5+Wbf9279+kNTFGQbbXo3DzAtgK4kVlMgdyfbLCLJIpk8vJaOCleUWWsVe7GwyAgPS22LGvgNJ7uMgb15E0Ezk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5bc3797820856c7989196482d1f9ca886f7ad2cb289ee7fdf30db30a3ad5537a" Description="" Url=""><as:assemblyIdentity name="OneBank.exe" version="1.0.0.0" publicKeyToken="40f73d26a4bf935d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PROLIFIC24\Thomas</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TRQhqlUwRl6LcWjj2Y0TKxUa3XKj4ODRe9yJoAZrLXw=</DigestValue></Reference></SignedInfo><SignatureValue>G+PRa8rHLUKucSD4lOuWZdwvuA9v8WjPu/biWm1q6nIe09PiEfrfckLPs8/hVt4UV7SYWUkXYtC1ggDM5RVZ2xT3UvKhrkIAlA+9cOPA7joNrkJhiFraLkE3DVxlztNDGq7Lizzvde3a+xAqk6c0mdjpN422XTUjREmjpx7Srro=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yWoa9tX3Nd6ajMNUY6Scbklx9AUIJ+Nne2tul8sfaGnOftSbfZAuL3YSMnfuWZZOyWWRMyj7u+2UUWJ7VL9Ea5+Wbf9279+kNTFGQbbXo3DzAtgK4kVlMgdyfbLCLJIpk8vJaOCleUWWsVe7GwyAgPS22LGvgNJ7uMgb15E0Ezk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQFd/Qg7/UjpxLP15SdJSS9DANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAUABSAE8ATABJAEYASQBDADIANABcAFQAaABvAG0AYQBzMB4XDTI0MDgzMTA4NTM1MVoXDTI1MDgzMTE0NTM1MVowLTErMCkGA1UEAx4iAFAAUgBPAEwASQBGAEkAQwAyADQAXABUAGgAbwBtAGEAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAyWoa9tX3Nd6ajMNUY6Scbklx9AUIJ+Nne2tul8sfaGnOftSbfZAuL3YSMnfuWZZOyWWRMyj7u+2UUWJ7VL9Ea5+Wbf9279+kNTFGQbbXo3DzAtgK4kVlMgdyfbLCLJIpk8vJaOCleUWWsVe7GwyAgPS22LGvgNJ7uMgb15E0EzkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBU2h97E4bVx2MNtYLRdkIBcE9TdFN0hqNovf/2SfvTnXUt6ylYb046yyhNs7jRpVWk8j6vTtYMx9NCdXURpbSmWe5V4AXZpiIjBWh958Yv0IP5U08vJYiw2iNBPUHKHUnjzWod/ZI3ihD5J+KD7FUWrVkNfR+3nYyLk5poKZIx6A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
